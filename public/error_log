@@ -1,0 +1,6 @@
+[16-Jun-2020 11:39:05 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sochware/public_html/subdomain/adminpanel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/sochware/public_html/subdomain/adminpanel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(424): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/sochware/public_html/subdomain/adminpanel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(401): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/sochware/public_html/subdomain/adminpanel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/sochware/public_html/subdomain/adminpanel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(209): Illuminate\Foundation\Exceptions\Handl in /home/sochware/public_html/subdomain/adminpanel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
